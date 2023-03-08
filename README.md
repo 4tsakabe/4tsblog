@@ -1,3 +1,9 @@
+# 4ts blog
+以下の記事を参考に作成した
+https://qlitre-weblog.com/next-microcms-blog-w-chakra-matome/
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
