@@ -1,6 +1,10 @@
 # 4ts blog
 以下の記事を参考に作成した
+next.js x chakraUI x microCMS
 https://qlitre-weblog.com/next-microcms-blog-w-chakra-matome/
+
+eslint, prettierの設定　ブログデザイン
+https://fwywd.com/tech/next-eslint-prettier
 
 ---
 
