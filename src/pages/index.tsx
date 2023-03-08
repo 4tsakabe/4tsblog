@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 
 export const getStaticProps = async () => {
-  const data = await client.getList({ endpoint: "post" });
+  const data = await client.getList({ endpoint: "posts" });
   return {
     props: {
       posts: data.contents,
