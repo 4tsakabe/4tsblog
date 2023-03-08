@@ -1,4 +1,4 @@
-import type { Post } from 'types/blog'
+import type { Post } from '../types/blog'
 import {
     Box,
     Heading,
@@ -29,7 +29,7 @@ export const PostList = ({ posts }: Props) => {
                             {post.title}
                         </Heading>
                     </Link>
-                    <Text fontSize="xl" color="gray.500" mt="2">{post.publishedAt.substring(0, 10)}</Text>
+                    <Text fontSize="xl" color="gray.500" mt="2">{post.publishedAt?.substring(0, 10)}</Text>
                     <Text mt="1" fontSize="xl" color="gray.500">{post.description}</Text>
                     <Link href={`/post/${post.id}`}>
                         <Button colorScheme='teal' variant='outline' size="sm" mt="8">
