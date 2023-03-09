@@ -2,9 +2,7 @@ import type { NextPage } from 'next';
 import { Header } from '../components/Header';
 import { client } from '../libs/client';
 import { Post } from '../types/blog';
-// 追加
 import { PostList } from '../components/PostList';
-// 追加
 import { Container, Heading } from '@chakra-ui/react';
 
 export const getStaticProps = async () => {
