@@ -29,11 +29,11 @@ export const PostList = ({ posts }: Props) => {
             {post.description}
           </Text>
           <Link href={`/post/${post.id}`}>
-            <Button colorScheme='teal' variant='outline' size='sm' mt='8'>
+            <Button colorScheme='teal' variant='outline' size='sm' mt='5'>
               続きを読む
             </Button>
           </Link>
-          <Stack mt='10' mb='10' borderBottom='1px' borderColor='gray.300' />
+          <Stack mt='5' mb='5' borderBottom='2px' borderColor='gray.300' />
         </Box>
       ))}
     </>

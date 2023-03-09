@@ -9,7 +9,7 @@ type Props = {
   post: Post;
 };
 
-export default function Article({ post }: Props) {
+export default function Post({ post }: Props) {
   return (
     <Box>
       <Header />
@@ -18,7 +18,6 @@ export default function Article({ post }: Props) {
           <Heading as='h1' fontSize='4xl' lineHeight={1.6}>
             {post.title}
           </Heading>
-          {/* <DateTime datetime={post.publishedAt} /> */}
         </Stack>
         <Divider marginY='8' />
         <div
