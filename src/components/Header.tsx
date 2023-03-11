@@ -6,10 +6,10 @@ export const Header: FC = () => {
   return (
     <Box px={4} bgColor='gray.100'>
       <Container maxW='container.lg'>
-        <Flex as='header' py='6' justifyContent='space-between' alignItems='center'>
+        <Flex as='header' py='4' justifyContent='space-between' alignItems='center'>
           <NextLink href='/' passHref>
-            <Heading as='h1' fontSize='2xl' cursor='pointer'>
-              よつメモ / 4ts&apos;s Blog
+            <Heading as='h1' fontSize='3xl' cursor='pointer'>
+              よつめも
             </Heading>
           </NextLink>
         </Flex>
