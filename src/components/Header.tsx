@@ -2,7 +2,6 @@ import {
   Box,
   Container,
   Heading,
-  chakra,
   Image,
   HStack,
 } from '@chakra-ui/react';
