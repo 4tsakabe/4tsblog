@@ -22,7 +22,7 @@ const Home: NextPage<Props> = ({ posts }) => {
   return (
     <>
       <Header />
-      <Container as='main' maxW='container.lg' marginTop='4' marginBottom='16'>
+      <Container as='main' maxW='container.md' marginTop='4' marginBottom='16'>
         <Heading as='h2' fontSize='2xl' fontWeight='bold' mb='8'>
           Home
         </Heading>
